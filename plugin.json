@@ -1,0 +1,23 @@
+{
+  "slug": "DistantPlanet",
+  "name": "DistantPlanet",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "Haer",
+  "author": "Haer",
+  "authorEmail": "",
+  "authorUrl": "",
+  "pluginUrl": "",
+  "manualUrl": "",
+  "sourceUrl": "https://github.com/hardyfinn/distantplanet",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "DistantPlanet",
+      "name": "DistantPlanet",
+      "description": "Steiner-Parker style 12 dB multimode filter with three audio inputs (LP, BP, HP) into one shared filter and one output. Patch several inputs at once for notch and blended modes. FREQUENCY, RESO (self-oscillates as a sine, wild at the top), VOLUME, 1V/oct and attenuated CV. Polyphonic",
+      "tags": ["Filter", "Polyphonic"]
+    }
+  ]
+}
