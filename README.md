@@ -21,4 +21,8 @@ Build: `make dist RACK_DIR=path/to/Rack-SDK`. GitHub Actions builds the Mac
 Panel: `python3 res/make_panel.py`; preview: `python3 tools/preview.py out.png`;
 guide: `python3 docs/make_guide.py out.pdf`.
 
-Original code (GPL-3.0-or-later). Not affiliated with Tiptop Audio.
+Original code (MIT licence). Not affiliated with Tiptop Audio.
+
+## Licence
+
+MIT (see `LICENSE.txt`): you're free to use, change, port (VST/CLAP, other platforms, hardware) and share this code, as long as the copyright notice and licence text come along. Fonts on the panel (Inter, Climate Crisis) are under the SIL Open Font Licence.
