@@ -41,7 +41,7 @@ struct DistantPlanet : Module {
 		config(NUM_PARAMS, NUM_INPUTS, NUM_OUTPUTS, NUM_LIGHTS);
 		configParam(FREQ_PARAM, 0.f, 1.f, 0.5f, "Frequency", " Hz", 1024.f, distantplanet::FREQ_MIN);
 		configParam(RESO_PARAM, 0.f, 1.f, 0.4f, "Resonance (sings on its own from about 80%, wild near 100%)", "%", 0.f, 100.f);
-		configParam(VOLUME_PARAM, 0.f, 1.f, 0.5f, "Volume (noon = unity)", "%", 0.f, 200.f);
+		configParam(VOLUME_PARAM, 0.f, 1.f, 0.5f, "Volume (noon = unity)", "%", 0.f, 200.f)->randomizeEnabled = false;
 		configParam(CV_AMT_PARAM, 0.f, 1.f, 0.f, "CV amount", "%", 0.f, 100.f);
 
 		configInput(VOCT_INPUT, "1V/oct (frequency CV at full strength)");
